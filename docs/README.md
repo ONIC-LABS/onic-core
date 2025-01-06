@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="onic Framework logo" src="/docs/assets/onic_Dark.svg" height="128">
+    <img alt="onic Framework logo" src="/docs/assets/oniclogo.png" height="128">
     <h1 align="center">onic Agent Framework</h1>
 </p>
 
