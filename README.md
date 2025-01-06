@@ -28,13 +28,13 @@ The ONIC Agent Framework makes it easy to build scalable agent-based workflows w
 ### Installation
 
 ```shell
-npm install onic-agent-framework
+npm install onic-core
 ```
 
 or
 
 ```shell
-yarn add onic-agent-framework
+yarn add onic-core
 ```
 
 ### Example
