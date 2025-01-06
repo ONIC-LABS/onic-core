@@ -40,18 +40,18 @@ yarn add onic-core
 ### Example
 
 ```ts
-import { onicAgent } from "onic-agent-framework/agents/onic/agent";
-import { OllamaChatLLM } from "onic-agent-framework/adapters/ollama/chat";
-import { TokenMemory } from "onic-agent-framework/memory/tokenMemory";
-import { DuckDuckGoSearchTool } from "onic-agent-framework/tools/search/duckDuckGoSearch";
-import { OpenMeteoTool } from "onic-agent-framework/tools/weather/openMeteo";
+import { onicAgent } from "onic-core/agents/onic/agent";
+import { OllamaChatLLM } from "onic-core/adapters/ollama/chat";
+import { TokenMemory } from "onic-core/memory/tokenMemory";
+import { DuckDuckGoSearchTool } from "onic-core/tools/search/duckDuckGoSearch";
+import { OpenMeteoTool } from "onic-core/tools/weather/openMeteo";
 
 const llm = new OllamaChatLLM(); // default is llama3.1 (8B), it is recommended to use 70B model
 
 const agent = new onicAgent({
-  llm, // for more explore 'onic-agent-framework/adapters'
-  memory: new TokenMemory({ llm }), // for more explore 'onic-agent-framework/memory'
-  tools: [new DuckDuckGoSearchTool(), new OpenMeteoTool()], // for more explore 'onic-agent-framework/tools'
+  llm, // for more explore 'onic-core/adapters'
+  memory: new TokenMemory({ llm }), // for more explore 'onic-core/memory'
+  tools: [new DuckDuckGoSearchTool(), new OpenMeteoTool()], // for more explore 'onic-core/tools'
 });
 
 const response = await agent
