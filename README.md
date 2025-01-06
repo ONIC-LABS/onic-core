@@ -1,6 +1,6 @@
 <p align="center">
     <img alt="onic Framework logo" src="/docs/assets/oniclogo.png" height="128">
-    <h1 align="center">onic Agent Framework</h1>
+    <h1 align="center">Onic Agent Framework</h1>
 </p>
 
 <p align="center">
@@ -8,7 +8,7 @@
   <h4 align="center">Open-source framework for building, deploying, and serving powerful agentic workflows at scale.</h4>
 </p>
 
-The ONIC CORE Agent Framework makes it easy to build scalable agent-based workflows with your model of choice. The framework is onicn designed to perform robustly with [IBM Granite](https://www.ibm.com/granite/docs/) and [Llama 3.x](https://ai.meta.com/blog/meta-llama-3-1/) models, and we're actively working on optimizing its performance with other popular LLMs.<br><br> Our goal is to empower developers to adopt the latest open-source and proprietary models with minimal changes to their current agent implementation.
+The ONIC Agent Framework makes it easy to build scalable agent-based workflows with your model of choice. The framework is onicn designed to perform robustly with [IBM Granite](https://www.ibm.com/granite/docs/) and [Llama 3.x](https://ai.meta.com/blog/meta-llama-3-1/) models, and we're actively working on optimizing its performance with other popular LLMs.<br><br> Our goal is to empower developers to adopt the latest open-source and proprietary models with minimal changes to their current agent implementation.
 
 ## Key Features
 
@@ -23,12 +23,7 @@ The ONIC CORE Agent Framework makes it easy to build scalable agent-based workfl
 - 🖥️ **Chat UI**: Serve your agent to users in a [delightful UI](https://github.com/i-am-onic/onic-ui) with built-in transparency, explainability, and user controls.
 - ... more on our [Roadmap](#roadmap)
 
-## Getting started
 
-
-> [!TIP]
->
-> 🚀 Would you like to work with onic in your web browser? See [onic Stack](https://github.com/i-am-onic/onic-stack)
 
 ### Installation
 
@@ -70,17 +65,13 @@ const response = await agent
 console.log(`Agent 🤖 : `, response.result.text);
 ```
 
-➡️ See a more [advanced example](/examples/agents/onic.ts).
+
 
 ➡️ you can run this example after local installation, using the command `yarn start examples/agents/simple.ts`
 
 > [!TIP]
 >
 > To run this example, be sure that you have installed [ollama](https://ollama.com) with the [llama3.1](https://ollama.com/library/llama3.1) model downloaded.
-
-> [!TIP]
->
-> Documentation is available at https://i-am-onic.github.io/onic-agent-framework/
 
 ### Local Installation
 
@@ -92,10 +83,6 @@ console.log(`Agent 🤖 : `, response.result.text);
 2. Install dependencies `yarn install --immutable && yarn prepare`.
 3. Create `.env` (from `.env.template`) and fill in missing values (if any).
 4. Start the agent `yarn run start:onic` (it runs `/examples/agents/onic.ts` file).
-
-➡️ All examples can be found in the [examples](/examples) directory.
-
-➡️ To run an arbitrary example, use the following command `yarn start examples/agents/onic.ts` (just pass the appropriate path to the desired example).
 
 ### 📦 Modules
 
