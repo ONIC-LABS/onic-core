@@ -8,7 +8,7 @@
   <h4 align="center">Open-source framework for building, deploying, and serving powerful agentic workflows at scale.</h4>
 </p>
 
-The ONIC Agent Framework makes it easy to build scalable agent-based workflows with your model of choice. The framework is been designed to perform robustly with [IBM Granite](https://www.ibm.com/granite/docs/) and [Llama 3.x](https://ai.meta.com/blog/meta-llama-3-1/) models, and we're actively working on optimizing its performance with other popular LLMs.<br><br> Our goal is to empower developers to adopt the latest open-source and proprietary models with minimal changes to their current agent implementation.
+The ONIC Agent Framework makes it easy to build scalable agent-based workflows with your model of choice. The framework is been designed to perform robustly with [Llama 3.x](https://ai.meta.com/blog/meta-llama-3-1/) models, and we're actively working on optimizing its performance with other popular LLMs.<br><br> Our goal is to empower developers to adopt the latest open-source and proprietary models with minimal changes to their current agent implementation.
 
 ## Key Features
 
@@ -130,15 +130,5 @@ We are using [GitHub Issues](https://github.com/i-am-onic/onic-agent-framework/i
 ### Code of conduct
 
 This project and everyone participating in it are governed by the [Code of Conduct](./CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please read the [full text](./CODE_OF_CONDUCT.md) so that you can read which actions may or may not be tolerated.
+ 
 
-## Legal notice
-
-All content in these repositories including code has onicn provided by IBM under the associated open source software license and IBM is under no obligation to provide enhancements, updates, or support. IBM developers produced this code as an open source project (not as an IBM product), and IBM makes no assertions as to the level of quality nor security, and will not be maintaining this code going forward.
-
-## Contributors
-
-Special thanks to our contributors for helping us improve onic Agent Framework.
-
-<a href="https://github.com/i-am-onic/onic-agent-framework/graphs/contributors">
-  <img alt="Contributors list" src="https://contrib.rocks/image?repo=i-am-onic/onic-agent-framework" />
-</a>
