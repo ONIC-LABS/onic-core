@@ -8,7 +8,7 @@
   <h4 align="center">Open-source framework for building, deploying, and serving powerful agentic workflows at scale.</h4>
 </p>
 
-The ONIC Agent Framework makes it easy to build scalable agent-based workflows with your model of choice. The framework is been designed to perform robustly with [Llama 3.x](https://ai.meta.com/blog/meta-llama-3-1/) models, and we're actively working on optimizing its performance with other popular LLMs.<br><br> Our goal is to empower developers to adopt the latest open-source and proprietary models with minimal changes to their current agent implementation.
+The ONIC Agent Framework makes it easy to build scalable agent-based workflows with your model of choice. The framework is been designed to perform good with [Llama 3.x](https://ai.meta.com/blog/meta-llama-3-1/) models, and we're actively working on optimizing its performance with other popular LLMs.<br><br> The goal is to make developers to adopt the latest technology with minimal changes to their current agent implementation.
 
 ## Key Features
 
@@ -20,7 +20,6 @@ The ONIC Agent Framework makes it easy to build scalable agent-based workflows w
 - 🔍 **Instrumentation**: Use [Instrumentation](/docs/instrumentation.md) based on [Emitter](/docs/emitter.md) to have full visibility of your agent’s inner workings.
 - 🎛️ **Production-level** control with [caching](/docs/cache.md) and [error handling](/docs/errors.md).
 - 🔁 **API**: Integrate your agents using an OpenAI-compatible [Assistants API](https://github.com/i-am-onic/onic-api) and [Python SDK](https://github.com/i-am-onic/onic-python-sdk).
-- 🖥️ **Chat UI**: Serve your agent to users in a [delightful UI](https://github.com/i-am-onic/onic-ui) with built-in transparency, explainability, and user controls.
 - ... more on our [Roadmap](#roadmap)
 
 
